@@ -27,9 +27,11 @@ Keywords: `acoustics`; `sound source localization`; `robotics`; `artificial inte
 ## Demonstration Videos
 Two demo videos have been created to illustrate the functionality of the system:
 
+Demo 1
+https://github.com/user-attachments/assets/d56daa19-61e8-47b3-9b51-7db1cb1bffc0
 
-- [Demo 1: Two-Microphone Setup](demo/demo1.mp4)
-- [Demo 2: Four-Microphone Setup](demo/demo2.mp4)
+Demo 2
+https://github.com/user-attachments/assets/c2897a01-a85f-42b6-99da-9ef4a8bf6d49
 
 ## Limitations and Future Work
 While the current implementation demonstrates the feasibility of sound localization using low-cost materials, accuracy is not always optimal, especially in noisy environments. Future enhancements could involve integrating advanced noise reduction techniques and exploring machine learning models for improved adaptability and precision.
