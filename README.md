@@ -25,6 +25,12 @@ Keywords: `acoustics`; `sound source localization`; `robotics`; `artificial inte
 ## Demonstration Videos
 Two demo videos have been created to illustrate the functionality of the system:
 
+[![Demo 1: Two-Microphone Setup](https://img.youtube.com/vi/NtPChWeRPRw/0.jpg)](https://www.youtube.com/watch?v=NtPChWeRPRw)
+*Demo 1: Two-Microphone Setup*
+
+[![Demo 2: Four-Microphone Setup](https://img.youtube.com/vi/zsqnKpDu-ds/0.jpg)](https://www.youtube.com/watch?v=zsqnKpDu-ds)
+*Demo 2: Four-Microphone Setup*
+
 ## Limitations and Future Work
 While the current implementation demonstrates the feasibility of sound localization using low-cost materials, accuracy is not always optimal, especially in noisy environments. Future enhancements could involve integrating advanced noise reduction techniques and exploring machine learning models for improved adaptability and precision.
 
@@ -33,7 +39,7 @@ This project is licensed under the MIT License.
  
 ## CREDITS AND REFERENCES
 Author: [Hemant Ramphul](https://www.linkedin.com/in/hemantramphul/)
-Date: 02 September, 2024  
+<br/>Date: 02 September, 2024  
 Project: Localization and tracking of moving targets by microphones
 
 For more information and updates, visit the project's URL: [Localization and tracking of moving targets by microphones](https://github.com/hemantramphul/Localization-and-tracking-of-moving-targets-by-microphones)
