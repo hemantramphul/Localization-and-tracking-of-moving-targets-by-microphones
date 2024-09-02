@@ -37,11 +37,9 @@ While the current implementation demonstrates the feasibility of sound localizat
 ## License
 This project is licensed under the MIT License.
  
-## CREDITS AND REFERENCES
+## Credits
 Author: [Hemant Ramphul](https://www.linkedin.com/in/hemantramphul/)
 <br/>Date: 02 September, 2024  
 Project: Localization and tracking of moving targets by microphones
 
-For more information and updates, visit the project's URL: [Localization and tracking of moving targets by microphones](https://github.com/hemantramphul/Localization-and-tracking-of-moving-targets-by-microphones)
-
-Feel free to reference this project in your projects and studies, giving appropriate credit to the author.
+Feel free to reference this project in your projects and studies, giving appropriate credit to the author. 👋👨‍💻
