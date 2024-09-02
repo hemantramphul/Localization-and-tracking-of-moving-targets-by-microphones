@@ -28,7 +28,7 @@ Keywords: `acoustics`; `sound source localization`; `robotics`; `artificial inte
 Two demo videos have been created to illustrate the functionality of the system:
 
 Demo 1
-https://github.com/user-attachments/assets/d56daa19-61e8-47b3-9b51-7db1cb1bffc0
+https://github.com/hemantramphul/assets/d56daa19-61e8-47b3-9b51-7db1cb1bffc0
 
 Demo 2
 https://github.com/user-attachments/assets/c2897a01-a85f-42b6-99da-9ef4a8bf6d49
