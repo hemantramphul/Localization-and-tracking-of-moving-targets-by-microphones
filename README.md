@@ -1,7 +1,41 @@
 # Localization and tracking of moving targets by microphones.
+This project demonstrates a sound localization and tracking system using an array of microphones. The primary goal is to determine the direction and approximate distance of a sound source using the Time Difference of Arrival (TDOA) method. This repository contains source code for both a two-microphone setup and a more robust four-microphone configuration.
 
-The aim of this thesis is to develop a sound localization and tracking system using a four-microphone array to determine the direction and approximate distance of a sound source. Sound localization involves identifying the position of a sound-emitting object, which has diverse applications in fields such as robotics, surveillance, and automated systems. In this project, four microphones are strategically placed at the corners of a 17cm x 17cm square to capture sound waves. The Time Difference of Arrival (TDOA) method is employed to calculate the time it takes for sound waves to reach each microphone, thereby estimating the direction and distance of the sound source. The system uses the calculated time differences and sound intensities to activate an LED corresponding to the nearest microphone, providing a visual indication of the sound's direction. 
-A threshold-based approach ensures that only significant sound events are detected, reducing the influence of background noise. The estimated distance to the sound source is calculated using the speed of sound and the time differences, providing real-time feedback. The system has been tested in various controlled environments, demonstrating its ability to consistently identify the direction of the sound source and provide reasonable distance estimates. 
-This research outlines the design and implementation of the sound localization system and discusses its performance, highlighting its potential applications in enhancing the capabilities of autonomous systems. Future work could involve refining the distance estimation technique and exploring the system's adaptability to different environmental conditions and sound types.
+Keywords: `acoustics`; `sound source localization`; `robotics`; `artificial intelligence`; `microphone arrays`
 
-<small>Keywords: acoustics; sound source localization; robotics; artificial intelligence; microphone arrays</small>
+## Features
+- **Two-Microphone Setup**: A simpler setup designed for initial testing. While it provides basic localization capabilities, its accuracy and reliability are limited.
+- **Four-Microphone Setup**: An advanced setup that improves localization accuracy by using four microphones arranged in a square configuration. This setup enhances spatial resolution and provides more accurate direction and distance estimation.
+
+## System Components
+- **Microphones**: LM393 sound detection sensor modules.
+- **Microcontroller**: Arduino Uno to process microphone inputs and control LEDs and a buzzer.
+- **LED Indicators**: Provide visual feedback by lighting up to indicate the direction of the detected sound.
+- **Buzzer**: An active buzzer that emits a sound, serving as a controlled input for testing.
+
+## Setup Instructions
+- **Hardware Connections**: Connect the microphones, LEDs, buzzer, and button switch to the Arduino as outlined in the project documentation.
+- **Software Requirements**: Install the Arduino IDE to upload code to the Arduino Uno. Ensure that standard Arduino libraries are up-to-date.
+- **Uploading Code**: Use the Arduino IDE to upload the relevant .ino file from this repository to the Arduino Uno.
+
+## Code Description
+- `localization_with_2_microphones.ino`: Code for the two-microphone setup. This script detects the direction of sound based on the time difference in sound arrival at the two microphones.
+- `localization_with_4_microphones.ino`: Code for the four-microphone setup. It calculates time differences at all four microphones to provide more accurate localization.
+
+## Demonstration Videos
+Two demo videos have been created to illustrate the functionality of the system:
+
+## Limitations and Future Work
+While the current implementation demonstrates the feasibility of sound localization using low-cost materials, accuracy is not always optimal, especially in noisy environments. Future enhancements could involve integrating advanced noise reduction techniques and exploring machine learning models for improved adaptability and precision.
+
+## License
+This project is licensed under the MIT License.
+ 
+## CREDITS AND REFERENCES
+Author: [Hemant Ramphul](https://www.linkedin.com/in/hemantramphul/)
+Date: 02 September, 2024  
+Project: Localization and tracking of moving targets by microphones
+
+For more information and updates, visit the project's URL: [Localization and tracking of moving targets by microphones](https://github.com/hemantramphul/Localization-and-tracking-of-moving-targets-by-microphones)
+
+Feel free to reference this project in your projects and studies, giving appropriate credit to the author.
