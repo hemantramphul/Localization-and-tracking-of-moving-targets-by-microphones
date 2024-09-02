@@ -1,6 +1,8 @@
 # Localization and tracking of moving targets by microphones.
 This project demonstrates a sound localization and tracking system using an array of microphones. The primary goal is to determine the direction and approximate distance of a sound source using the Time Difference of Arrival (TDOA) method. This repository contains source code for both a two-microphone setup and a more robust four-microphone configuration.
 
+![System Diagram](demo/setup.jpg)
+
 Keywords: `acoustics`; `sound source localization`; `robotics`; `artificial intelligence`; `microphone arrays`
 
 ## Features
@@ -25,11 +27,9 @@ Keywords: `acoustics`; `sound source localization`; `robotics`; `artificial inte
 ## Demonstration Videos
 Two demo videos have been created to illustrate the functionality of the system:
 
-[![Demo 1: Two-Microphone Setup](https://img.youtube.com/vi/NtPChWeRPRw/0.jpg)](https://www.youtube.com/watch?v=NtPChWeRPRw)
-*Demo 1: Two-Microphone Setup*
 
-[![Demo 2: Four-Microphone Setup](https://img.youtube.com/vi/zsqnKpDu-ds/0.jpg)](https://www.youtube.com/watch?v=zsqnKpDu-ds)
-*Demo 2: Four-Microphone Setup*
+- [Demo 1: Two-Microphone Setup](demo/demo1.mp4)
+- [Demo 2: Four-Microphone Setup](demo/demo2.mp4)
 
 ## Limitations and Future Work
 While the current implementation demonstrates the feasibility of sound localization using low-cost materials, accuracy is not always optimal, especially in noisy environments. Future enhancements could involve integrating advanced noise reduction techniques and exploring machine learning models for improved adaptability and precision.
