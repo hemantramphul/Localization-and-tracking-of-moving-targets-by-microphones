@@ -29,6 +29,7 @@ Two demo videos have been created to illustrate the functionality of the system:
 
 https://github.com/user-attachments/assets/d8f2545a-3980-4d05-93b0-431d0095a585
 
+https://github.com/user-attachments/assets/02aa724f-1692-4350-bf2a-b55af739774c
 
 ## Limitations and Future Work
 While the current implementation demonstrates the feasibility of sound localization using low-cost materials, accuracy is not always optimal, especially in noisy environments. Future enhancements could involve integrating advanced noise reduction techniques and exploring machine learning models for improved adaptability and precision.
